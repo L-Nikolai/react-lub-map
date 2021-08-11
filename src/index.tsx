@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./index.css";
-import Map from "./Map";
+import App from "./app";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Map />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
